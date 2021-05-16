@@ -1,0 +1,113 @@
+body {
+    background-color: #d3d3d3;
+    font-family: 'Courier New', Courier, monospace;
+    color: #393939;
+    }
+
+h1 {
+/* color: white; */
+text-align: center;
+}
+
+p1 {
+/* font-family: verdana;
+font-size: 20px; */
+}
+
+.header {
+    /* font-family: verdana; */
+    font-size: 20px;
+    /* padding: 10px; */
+    text-align: center;
+    background: white;
+    /* color: white; */
+    /* border-radius: 1cm; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height:20%;
+    left: 0;
+}
+
+.logo{
+    height: 100%;
+}
+
+.links{
+    position: fixed;
+    top: 30%;
+}
+
+.maincontent{
+    /* font-family: verdana; */
+    font-size: 14px;
+}
+
+
+.footer {
+    display: grid;
+    /* grid-gap: 15px; */
+    /* grid-template-columns: repeat(auto-fit, 200px); */
+    /* justify-content: start; */
+    position: fixed;
+    /* padding: 2mm; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* height: 10%; */
+    /* background: #1abc9c;
+    color: white;
+    text-align: center; */
+    /* align-content: center; */
+    /* border-radius: 1cm; */
+     
+}
+.footer-background{
+    width:100%;
+    height: fit-content;
+    background: white;
+    /* resize: vertical;
+    overflow: auto; */
+}
+.footer-left{
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: repeat(auto-fit, 250px);
+    justify-content: space-evenly;
+    position: inherit;
+    padding: 0mm;
+    left: 0;
+    bottom: 0;
+    width: 80%;
+    /* height: 10%; */
+    color: #393939;
+    /* text-align: center; */
+}
+
+.info {
+    border-color: black;
+    /* border-style: dotted; */
+    padding: 10px;
+    /* background-image: url('../img/info_frame_scissors.svg'); */
+    background-size: cover;
+    background-clip: padding-box;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+    vertical-align: middle;
+}
+
+#map {
+    /* text-align: center; */
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 20%;
+    height: 30%;
+    resize: both;
+    overflow: hidden;
+    direction: rtl;
+    min-width: 20%;
+    min-height: 30%;
+    /* transform: rotateZ(180deg); */
+}
